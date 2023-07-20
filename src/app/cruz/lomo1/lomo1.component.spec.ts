@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LomoComponent } from './lomo.component';
+import { Lomo1Component } from './lomo1.component';
 
-describe('LomoComponent', () => {
-  let component: LomoComponent;
-  let fixture: ComponentFixture<LomoComponent>;
+describe('Lomo1Component', () => {
+  let component: Lomo1Component;
+  let fixture: ComponentFixture<Lomo1Component>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LomoComponent ]
+      declarations: [ Lomo1Component ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(LomoComponent);
+    fixture = TestBed.createComponent(Lomo1Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

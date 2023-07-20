@@ -29,6 +29,12 @@ import { CaderaComponent } from './grupa/cadera/cadera.component';
 import { NalgasComponent } from './grupa/nalgas/nalgas.component';
 import { VientreComponent } from './lomo/vientre/vientre.component';
 import { FaldaComponent } from './lomo/falda/falda.component';
+import { Cola1Component } from './cola/cola1/cola1.component';
+import { Cuello1Component } from './cruz/cuello1/cuello1.component';
+import { Lomo1Component } from './cruz/lomo1/lomo1.component';
+import { PechoComponent } from './dorso/pecho/pecho.component';
+
+
 
 @NgModule({
   declarations: [
@@ -58,7 +64,13 @@ import { FaldaComponent } from './lomo/falda/falda.component';
     CaderaComponent,
     NalgasComponent,
     VientreComponent,
-    FaldaComponent
+    FaldaComponent,
+    Cola1Component,
+    Cuello1Component,
+    Lomo1Component,
+    PechoComponent,
+    
+    
   ],
   imports: [
     BrowserModule,
