@@ -3,3 +3,8 @@ img{
     width: 10%;
     border-radius: 10%;
 }
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+}
